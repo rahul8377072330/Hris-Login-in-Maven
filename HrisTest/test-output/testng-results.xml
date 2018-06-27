@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15756" started-at="2018-06-27T11:59:49Z" finished-at="2018-06-27T12:00:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15756" started-at="2018-06-27T11:59:49Z" finished-at="2018-06-27T12:00:05Z">
+      <class name="TestNg">
+        <test-method status="PASS" signature="testOpenBrowserAndOpenHris()[pri:0, instance:TestNg@650e52]" name="testOpenBrowserAndOpenHris" duration-ms="5235" started-at="2018-06-27T11:59:50Z" finished-at="2018-06-27T11:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenBrowserAndOpenHris -->
+        <test-method status="PASS" signature="testLoginWrongPass_LoginWrongUsr()[pri:1, instance:TestNg@650e52]" name="testLoginWrongPass_LoginWrongUsr" duration-ms="2020" started-at="2018-06-27T11:59:55Z" finished-at="2018-06-27T11:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPass_LoginWrongUsr -->
+        <test-method status="PASS" signature="testBlankUser_Pass()[pri:2, instance:TestNg@650e52]" name="testBlankUser_Pass" duration-ms="972" started-at="2018-06-27T11:59:57Z" finished-at="2018-06-27T11:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankUser_Pass -->
+        <test-method status="PASS" signature="testLoginCorrectCredentials()[pri:3, instance:TestNg@650e52]" name="testLoginCorrectCredentials" duration-ms="7435" started-at="2018-06-27T11:59:58Z" finished-at="2018-06-27T12:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginCorrectCredentials -->
+      </class> <!-- TestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
