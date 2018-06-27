@@ -11,8 +11,6 @@ public class LoginForm {
 WebDriver driver;
 public void OpenBrowserAndOpenHris()
 {
-	
-System.setProperty("webdriver.chrome.driver","C:\\Users\\rajkeshri\\Downloads\\chromedriver_win32\\chromedriver.exe");
 driver=new ChromeDriver();
 driver.get("https://hris.qainfotech.com/login.php");
 driver.findElement(By.className("active")).click();
